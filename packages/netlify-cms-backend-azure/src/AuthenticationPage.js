@@ -44,7 +44,7 @@ export default class AzureAuthenticationPage extends React.Component {
     this.auth.authenticate(
       {
         scope: 'vso.code_full,user.read',
-        resource: '499b84ac-1321-427f-aa17-267ca6975798',
+        resource: '52b49a2c-2074-4853-8f90-eb47ef9930ef/.default',
         prompt: 'select_account',
       },
       (err, data) => {
